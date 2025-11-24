@@ -336,9 +336,9 @@ class ShorAlgorithm:
 # ========== PROGRAMA PRINCIPAL ==========
 
 if __name__ == "__main__":
-    print("\n" + "█"*60)
+    print("\n" + "-"*60)
     print(" "*15 + "ALGORISME DE SHOR")
-    print("█"*60)
+    print("-"*60)
     
     # Demanar N a l'usuari
     while True:
@@ -360,10 +360,10 @@ if __name__ == "__main__":
     
     # Mostrar resultats
     if p and q:
-        print(f"\n{'█'*60}")
+        print(f"\n{'-'*60}")
         print(f"  RESULTAT FINAL: {N} = {p} × {q}")
-        print(f"{'█'*60}\n")
+        print(f"{'-'*60}\n")
     else:
-        print(f"\n{'█'*60}")
+        print(f"\n{'-'*60}")
         print(f"  No s'han pogut trobar els factors de {N}")
-        print(f"{'█'*60}\n")
+        print(f"{'-'*60}\n")
